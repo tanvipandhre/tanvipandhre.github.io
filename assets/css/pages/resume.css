@@ -1,0 +1,50 @@
+/*-----------------------------------*\
+  #portfolio.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2024 Tanvi Thskur
+ */
+
+/**
+ * TABLE OF CONTENT
+ *
+ * COMPONENTS
+ * Btn............................Buttons style
+ *
+ * MAIN CONTENT
+ * Portfolio......................Portfolio style
+ * Media queries..................Responsive for all devices
+ */
+
+/*-----------------------------------*\
+  #COMPONENTS
+\*-----------------------------------*/
+
+@import url("../components/btn.css");
+@import url("../require.css");
+
+/*-----------------------------------*\
+  #iframe
+\*-----------------------------------*/
+.resume {
+  background-color: var(--maximum-yellow-red_a10);
+  padding-block-start: calc(var(--section-padding) + 60px);
+}
+
+iframe {
+  margin: 0 auto;
+  max-width: 835px;
+  border: none;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  height: 108vh;
+  overflow: hidden;
+  display: block;
+}
+
+/* Show scrollbar for iframe on devices with width > 768px */
+@media (min-width: 768px) {
+  iframe {
+    overflow: none;
+  }
+}

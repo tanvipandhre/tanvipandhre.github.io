@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    - primary meta tags
+  -->
+    <title>Tanvi's Portfolio</title>
+    <meta name="title" content="Tanvi's Portfolio" />
+    <meta
+      name="description"
+      content="A driven Software Engineer with experience in building projects, Actively seeking job opportunities in the field, An international student and H1-B candidate with a strong motivation to succeed, Focuses on clean and optimized code for improved search engine ranking, Displays projects showcasing skills and abilities in Front-end development
+  Includes a clear call-to-action inviting potential employers to get in touch"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/pages/portfolio.css" />
+
+    <!--
+    - preload images
+  -->
+    <link rel="preload" href="./assets/images/hero-banner.png" as="image" />
+  </head>
+  <body>
+    <!-- 
+      - #CURSOR
+    -->
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- 
+      - #PRELOADER
+    -->
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
+
+    <!-- 
+      - #HEADER
+    -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <!--<img src="./assets/images/logo.svg" width="200" alt="Tanvi home" />-->
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="./index.html" class="label-lg navbar-link has-after"
+                >Home</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="label-lg navbar-link has-after active"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="./resume.html" class="label-lg navbar-link has-after"
+                >Resumé</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- #PORTFOLIO
+        -->
+
+        <section class="section portfolio" aria-labelledby="portfolio-label">
+          <div class="container">
+            <h2
+              class="section-title headline-md text-center"
+              id="portfolio-label"
+            >
+              My Projects
+            </h2>
+
+            <ul class="portfolio-list">
+              <li>
+                <div class="portfolio-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 800; --height: 540"
+                  >
+                    <img
+                      src="./assets/images/ML img.png"
+                      width="800"
+                      height="540"
+                      loading="lazy"
+                      alt="MLApplication"
+                      class="img-cover"
+                    />
+
+                    <a
+                      href="#"
+                      class="btn-icon"
+                      aria-label="Go Project"
+                    >
+                      <ion-icon
+                        name="arrow-forward-sharp"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="chip label-md">
+                      Stress Analysis in Social Media
+                    </div>
+
+                    <h3 class="title-md">
+                      Machine Learning, Python
+                    </h3>
+
+                    <p class="card-text">
+                      This project aims to analysis the stressful content. Conducted data preprocessing on social media posts. Trained the model using Logistic Regression and identified posts related to PTSD, anxiety and other kind of stress by performing sentiment and polarity analysis.
+                    </p>
+                    <div class="wrapper">
+                      <a href="https://colab.research.google.com/drive/16QT0sOZuXioYmk-0YzractiMZCyVRMe8" class="btn btn-primary" target="_blank"
+                        ><ion-icon name="link"></ion-icon> View Project</a
+                      >
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="portfolio-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 800; --height: 540"
+                  >
+                    <img
+                      src="./assets/images/shop.png"
+                      width="800"
+                      height="540"
+                      loading="lazy"
+                      alt="Website Design for CorpComment Project"
+                      class="img-cover"
+                    />
+
+                    <a
+                      href="#"
+                      class="btn-icon"
+                      aria-label="More about website design for CorpComment Project"
+                    >
+                      <ion-icon
+                        name="arrow-forward-sharp"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="chip label-md">
+                      Shopping Cart Application
+                    </div>
+
+                    <h3 class="title-md">
+                      Python, Flask, SQL, WTF forms, Heroku
+                    </h3>
+
+                    <p class="card-text">
+                      This Shopping Cart application has a login, registration page. There are 2 types of users - Shop owner and the customers. The shop owner or the admin has the capability to add or delete a product. They can manage the stock. and price of the product. The customer can shop on the shop page and add products to the cart. Then customer gets the list of all orders that he has purchased and its total. Then then can checkout and place order. The shop owner has privilege to see the purchase history of the customers and the customer gets to see history of his own project.
+                    </p>
+
+                    <div class="wrapper">
+                      <a href="https://www.youtube.com/watch?v=E1T66a07YEU" class="btn btn-primary" target="_blank"
+                        ><ion-icon name="link"></ion-icon>View Demo</a
+                      >
+                      <a href="https://github.com/tanvipandhre/IS601_004/tree/main/TanviProject" class="btn btn-secondary" target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="portfolio-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 800; --height: 540"
+                  >
+                    <img
+                      src="./assets/images/aws project.png"
+                      width="800"
+                      height="540"
+                      loading="lazy"
+                      alt="Car and Text Recognizer"
+                      class="img-cover"
+                    />
+
+                    <a
+                      href="#"
+                      class="btn-icon"
+                      aria-label="More about AWS "
+                    >
+                      <ion-icon
+                        name="arrow-forward-sharp"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="chip label-md">
+                      Car and Text Recognizer
+                    </div>
+
+                    <h3 class="title-md">
+                      AWS, Docker, Java
+                    </h3>
+
+                    <p class="card-text">
+                      On AWS account two EC2 instances were created. First instance scanned all the images in the S3 bucket and identified objects that are having image of an car than images with those indexes are passes through SQS queue. Instance B identifies the text on those images. The jar files were uploaded on AWS in S3 bucket. Output file is generated with the index no of car image and text written on that image. Project also uses Docker to create a container image to simplify deployment.
+                    </p>
+
+                    <div class="wrapper">
+                      <a href="https://github.com/tanvipandhre/PractiseMakesAGirlPerfect/blob/master/CS643_tanvi%20pandhre/CS643_PA1_Tanvi%20Pandhre.pdf" class="btn btn-primary" target="_blank"
+                        ><ion-icon name="link"></ion-icon> View Project</a
+                      >
+                      <a href="https://github.com/tanvipandhre/PractiseMakesAGirlPerfect/tree/master/CS643_tanvi%20pandhre" class="btn btn-secondary" target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              
+              <li>
+                <div class="portfolio-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 800; --height: 540"
+                  >
+                    <img
+                      src="./assets/images/java project.png "
+                      width="800"
+                      height="540"
+                      loading="lazy"
+                      alt="Employee and Project Managent"
+                      class="img-cover"
+                    />
+
+                    <a
+                      href="#"
+                      class="btn-icon"
+                      aria-label="More about website design for CorpComment Project"
+                    >
+                      <ion-icon
+                        name="arrow-forward-sharp"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <div class="chip label-md">
+                      Employee and Project Management System
+                    </div>
+
+                    <h3 class="title-md">
+                      JAVA, JSP, Servlet, SQL
+                    </h3>
+
+                    <p class="card-text">
+                      I have made login page where authorized user is able to get above mentioned systems - Employee Payroll and Project Management. In Employee payroll, user can keep track of full time and part time employees. While in Project Management System user can create a new project and assign the team members of the particular department.
+                    </p>
+
+                    <div class="wrapper">
+                      
+                      <a href="https://github.com/tanvipandhre/PractiseMakesAGirlPerfect/tree/master/CS631_Employee_Project_Mgmt_System" class="btn btn-secondary" target="_blank"
+                        ><ion-icon name="logo-github"></ion-icon>View Code</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+      - #FOOTER
+    -->
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a href="https://github.com/tanvipandhre" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/tanvipandhre/" target="_blank"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+        </ul>
+
+        <p class="text-center">&copy; 2024 copyright all right reserved</p>
+      </div>
+    </footer>
+
+    <!-- 
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+      - ionicon
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

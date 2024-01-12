@@ -16,15 +16,15 @@ button.addEventListener("click", (event) => {
   // send email using EmailJS API
   emailjs
     .send(
-      "service_9hie6qs",
-      "template_6j1x0b4",
+      "service_t64bjbd",
+      "template_j6tzf6t",
       {
         from_name: formData.get("name"),
         from_email: formData.get("email"),
         subject: formData.get("subject"),
         message: formData.get("message"),
       },
-      "fIeohBsh6d3H3jCH5"
+      "-a6JOJrXtVPHaI2JE"
     )
     .then((response) => {
       alert("Thank you for your message! We will get back to you soon.");

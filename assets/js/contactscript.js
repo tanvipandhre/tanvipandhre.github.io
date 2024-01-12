@@ -16,8 +16,8 @@ button.addEventListener("click", (event) => {
   // send email using EmailJS API
   emailjs
     .send(
-      "service_t64bjbd",
-      "template_j6tzf6t",
+      "service_wsn6h5q",
+      "template_np27v8o",
       {
         from_name: formData.get("name"),
         from_email: formData.get("email"),
